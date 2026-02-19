@@ -437,9 +437,6 @@ if ($primary -and $primary.Unhealthy) { exit 2 }
 if ($anyBad) { exit 1 }
 exit 0
 
-ChatGPT said:
-Absolutely — this script deserves a clean README because it’s actually useful and not just “yet another ping check.” 😄
-Below is a strong GitHub-ready README you can paste in, with sections that explain what it does, how it works, and how to deploy it in NinjaRMM.
 
 External DC Health Monitor (Outside-In) — NinjaRMM Safe
 A PowerShell 5.1 compatible outside-in Domain Controller health monitor designed for NinjaRMM.
