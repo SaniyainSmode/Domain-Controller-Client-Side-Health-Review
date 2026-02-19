@@ -1,10 +1,10 @@
 External DC Health Monitor (Outside-In) — NinjaRMM Safe
 
-A PowerShell 5.1 compatible outside-in Domain Controller health monitor designed for NinjaRMM.
+A PowerShell 5.1 compatible outside-in Domain Controller health monitor designed specifically for NinjaRMM environments.
 
-This script runs from a workstation/server joined to the domain, discovers all Domain Controllers via DNS SRV records, and performs multiple health checks per DC — including connectivity, DNS responsiveness, SYSVOL/NETLOGON availability, and replication freshness.
+This script runs from a domain-joined workstation or server, discovers all Domain Controllers using DNS SRV records, and performs layered health checks per DC — including connectivity, DNS responsiveness, SYSVOL/NETLOGON availability, replication freshness, and critical event signals.
 
-It outputs clean, parseable results and exits with Ninja-friendly exit codes.
+It outputs clean, parseable results and exits with Ninja-friendly exit codes for alerting.
 
 For each Domain Controller, the script checks:
 
